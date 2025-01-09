@@ -11,9 +11,9 @@ terraform {
 
   }
 }
-
+# 这里是环境变量的读取。在github action variables里面
 provider "aws" {
-  region = "${var.aws.region}" # 这里是环境变量的读取。在github action variables里面
+  region = "${var.aws.region}" 
 }
 
 //
