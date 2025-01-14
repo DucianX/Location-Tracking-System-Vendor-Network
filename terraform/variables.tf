@@ -1,5 +1,6 @@
 variable "aws_region" {
 // 已经在aws的环境变量里配置过
+  default = "us-east-1"
 }
 
 # 和repo保持一致。
